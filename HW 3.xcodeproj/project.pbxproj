@@ -14,6 +14,8 @@
 		86C417171C7449F9008C6FE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C417151C7449F9008C6FE7 /* LaunchScreen.storyboard */; };
 		86C417221C7449F9008C6FE7 /* HW_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C417211C7449F9008C6FE7 /* HW_3Tests.swift */; };
 		86C4172D1C7449F9008C6FE7 /* HW_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C4172C1C7449F9008C6FE7 /* HW_3UITests.swift */; };
+		86C4173B1C744B5E008C6FE7 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C4173A1C744B5E008C6FE7 /* Common.swift */; };
+		86C4173D1C744BBB008C6FE7 /* MailboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C4173C1C744BBB008C6FE7 /* MailboxViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		86C417281C7449F9008C6FE7 /* HW 3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW 3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C4172C1C7449F9008C6FE7 /* HW_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW_3UITests.swift; sourceTree = "<group>"; };
 		86C4172E1C7449F9008C6FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86C4173A1C744B5E008C6FE7 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		86C4173C1C744BBB008C6FE7 /* MailboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailboxViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,11 @@
 				86C4170C1C7449F9008C6FE7 /* AppDelegate.swift */,
 				86C4170E1C7449F9008C6FE7 /* ViewController.swift */,
 				86C417101C7449F9008C6FE7 /* Main.storyboard */,
+				86C4173C1C744BBB008C6FE7 /* MailboxViewController.swift */,
 				86C417131C7449F9008C6FE7 /* Assets.xcassets */,
 				86C417151C7449F9008C6FE7 /* LaunchScreen.storyboard */,
 				86C417181C7449F9008C6FE7 /* Info.plist */,
+				86C4173A1C744B5E008C6FE7 /* Common.swift */,
 			);
 			path = "HW 3";
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				86C4170F1C7449F9008C6FE7 /* ViewController.swift in Sources */,
+				86C4173D1C744BBB008C6FE7 /* MailboxViewController.swift in Sources */,
 				86C4170D1C7449F9008C6FE7 /* AppDelegate.swift in Sources */,
+				86C4173B1C744B5E008C6FE7 /* Common.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
