@@ -156,6 +156,10 @@ class MailboxViewController: UIViewController, UIGestureRecognizerDelegate {
                 })
             }
             
+            else {
+                self.messageBackgroundView.backgroundColor = self.mailboxGrey
+            }
+            
         }
             
         else if sender.state == UIGestureRecognizerState.Ended {
@@ -192,7 +196,10 @@ class MailboxViewController: UIViewController, UIGestureRecognizerDelegate {
                         
                         UIView.animateWithDuration(0.2, delay: 0.1, options: [], animations: { () -> Void in
                             self.feedImageView.center = CGPoint(x: self.feedOriginalCenter.x, y: self.feedOriginalCenter.y - 86)
-                            }, completion: nil)
+                            }, completion: { (Bool) -> Void in
+                                // set background color back to grey
+                                self.messageBackgroundView.backgroundColor = self.mailboxGrey
+                        })
                 })
             }
                 
@@ -205,7 +212,10 @@ class MailboxViewController: UIViewController, UIGestureRecognizerDelegate {
                         // scroll feed up
                         UIView.animateWithDuration(0.2, delay: 0.1, options: [], animations: { () -> Void in
                             self.feedImageView.center = CGPoint(x: self.feedOriginalCenter.x, y: self.feedOriginalCenter.y - 86)
-                            }, completion: nil)
+                            }, completion: { (Bool) -> Void in
+                                // set background color back to grey
+                                self.messageBackgroundView.backgroundColor = self.mailboxGrey
+                        })
                 })
             }
             
