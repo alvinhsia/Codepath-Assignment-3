@@ -29,4 +29,4 @@ Optional:
 
 GIF:
 
-
+![codepath hw 3](https://cloud.githubusercontent.com/assets/1860265/13206094/69b321e6-d8ac-11e5-84ea-ca2db16c6a10.gif)
